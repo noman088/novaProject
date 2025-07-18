@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { ChevronDown } from "lucide-react";
-
+import logo from "../assets/novaLogo.png";
 
 const NovaHeader = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -25,7 +25,7 @@ const NovaHeader = () => {
                     <div className="flex items-center justify-between h-16">
                         {/* Logo */}
                         <div className="flex items-center">
-                            <img src="" alt="" />
+                            <img src={logo} alt="" />
                         </div>
 
                         {/* Navigation Menu */}

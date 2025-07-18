@@ -1,1 +1,24 @@
 @import "tailwindcss";
+@layer components {
+    .btn-6 {
+        @apply inline-flex items-center justify-center px-6 py-3 min-h-[3rem] 
+      text-base font-semibold leading-5 text-black/85 bg-white 
+      border border-black/10 rounded 
+      shadow-sm hover:shadow-lg hover:text-black/65 hover:border-black/15 
+      transition-all duration-300 
+      cursor-pointer select-none 
+      font-serif
+      touch-manipulation 
+      no-underline 
+      align-baseline;
+    }
+
+    .btn-6:hover {
+        @apply -translate-y-[1px];
+    }
+
+    .btn-6:active {
+        @apply bg-[#F0F0F1] text-black/65 border-black/15 
+       border shadow-md translate-y-0;
+    }
+}
