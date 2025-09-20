@@ -116,14 +116,9 @@ export default function Footer() {
                             <a href="#">Chat Support</a>
                         </li>
                     </ul>
-                    <h4 className="font-semibold text-gray-900 mb-2">
+                    <h4 className="font-semibold text-gray-900 mb-2 transition-all duration-300 hover:translate-x-3">
                         Contact us
                     </h4>
-                    <ul className="space-y-1 text-gray-600">
-                        <li>📧 hello@tagsolnova.in</li>
-                        <li>📞 +91 1234567890</li>
-                        <li>📍 Madhapur, Hyderabad</li>
-                    </ul>
                 </div>
             </div>
 
